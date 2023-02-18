@@ -14,7 +14,7 @@ int solution(vector<int> inputArray) {
     
        vector<int>::const_iterator end = inputArray.cend() - 1;
        int temp = 0;
-       int currtemp = 0;
+       int currtemp;
        int result = 0;
        for (vector<int>::const_iterator it = inputArray.cbegin(); it != end; ++it){
              //cout << '(' << *it << ',' << *(it+1) << ')' << " -- ";
